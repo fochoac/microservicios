@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.2" icons="true" automaticImage="PNG" always-add-relationships="true" generalizations="true" 
+  realizations="true" associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="net.unir.establecimiento.salud.configuracion.EstablecimientoConfiguracion" 
+    project="unir-establecimiento-salud-web" 
+    file="/unir-establecimiento-salud-web/src/main/java/net/unir/establecimiento/salud/configuracion/EstablecimientoConfiguracion.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="77" width="196" x="292" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="net.unir.establecimiento.salud.dao.EstablecimientoSaludDao" 
+    project="unir-establecimiento-salud-web" 
+    file="/unir-establecimiento-salud-web/src/main/java/net/unir/establecimiento/salud/dao/EstablecimientoSaludDao.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="95" width="303" x="1224" y="541"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="net.unir.establecimiento.salud.dao.HorarioDao" 
+    project="unir-establecimiento-salud-web" 
+    file="/unir-establecimiento-salud-web/src/main/java/net/unir/establecimiento/salud/dao/HorarioDao.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="113" width="218" x="297" y="541"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="net.unir.establecimiento.salud.dao.ConsultorioDao" 
+    project="unir-establecimiento-salud-web" 
+    file="/unir-establecimiento-salud-web/src/main/java/net/unir/establecimiento/salud/dao/ConsultorioDao.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="113" width="216" x="41" y="541"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="net.unir.establecimiento.salud.dao.MedicoDao" 
+    project="unir-establecimiento-salud-web" 
+    file="/unir-establecimiento-salud-web/src/main/java/net/unir/establecimiento/salud/dao/MedicoDao.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="149" width="319" x="865" y="541"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="net.unir.establecimiento.salud.dao.EspecialidadDao" 
+    project="unir-establecimiento-salud-web" 
+    file="/unir-establecimiento-salud-web/src/main/java/net/unir/establecimiento/salud/dao/EspecialidadDao.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="113" width="270" x="555" y="541"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="net.unir.establecimiento.salud.dao.impl.GenericoDao" 
+    project="unir-establecimiento-salud-web" 
+    file="/unir-establecimiento-salud-web/src/main/java/net/unir/establecimiento/salud/dao/impl/GenericoDao.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="149" width="176" x="541" y="352"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="net.unir.establecimiento.salud.modelo.Especialidad" 
+    project="unir-establecimiento-salud-web" 
+    file="/unir-establecimiento-salud-web/src/main/java/net/unir/establecimiento/salud/modelo/Especialidad.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="329" width="167" x="555" y="730"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="net.unir.establecimiento.salud.modelo.Medico" 
+    project="unir-establecimiento-salud-web" 
+    file="/unir-establecimiento-salud-web/src/main/java/net/unir/establecimiento/salud/modelo/Medico.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="419" width="297" x="865" y="730"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="net.unir.establecimiento.salud.modelo.Consultorio" 
+    project="unir-establecimiento-salud-web" 
+    file="/unir-establecimiento-salud-web/src/main/java/net/unir/establecimiento/salud/modelo/Consultorio.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="491" width="194" x="41" y="730"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="net.unir.establecimiento.salud.modelo.Horario" 
+    project="unir-establecimiento-salud-web" 
+    file="/unir-establecimiento-salud-web/src/main/java/net/unir/establecimiento/salud/modelo/Horario.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="491" width="173" x="297" y="730"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="net.unir.establecimiento.salud.modelo.EstablecimientoSalud" 
+    project="unir-establecimiento-salud-web" 
+    file="/unir-establecimiento-salud-web/src/main/java/net/unir/establecimiento/salud/modelo/EstablecimientoSalud.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="545" width="198" x="1224" y="730"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="net.unir.establecimiento.salud.servicio.MedicoServicio" 
+    project="unir-establecimiento-salud-web" 
+    file="/unir-establecimiento-salud-web/src/main/java/net/unir/establecimiento/salud/servicio/MedicoServicio.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="149" width="175" x="971" y="352"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="net.unir.establecimiento.salud.servicio.EstablecimientoSaludServicio" 
+    project="unir-establecimiento-salud-web" 
+    file="/unir-establecimiento-salud-web/src/main/java/net/unir/establecimiento/salud/servicio/EstablecimientoSaludServicio.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="131" width="195" x="1224" y="352"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="net.unir.establecimiento.salud.servicio.EspecialidadServicio" 
+    project="unir-establecimiento-salud-web" 
+    file="/unir-establecimiento-salud-web/src/main/java/net/unir/establecimiento/salud/servicio/EspecialidadServicio.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="149" width="174" x="757" y="352"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="net.unir.establecimiento.salud.servicio.HorarioServicio" 
+    project="unir-establecimiento-salud-web" 
+    file="/unir-establecimiento-salud-web/src/main/java/net/unir/establecimiento/salud/servicio/HorarioServicio.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="149" width="228" x="273" y="352"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="net.unir.establecimiento.salud.servicio.ConsultorioServicio" 
+    project="unir-establecimiento-salud-web" 
+    file="/unir-establecimiento-salud-web/src/main/java/net/unir/establecimiento/salud/servicio/ConsultorioServicio.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="149" width="174" x="41" y="352"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="net.unir.establecimiento.salud.util.AbstractRepository" 
+    project="unir-establecimiento-salud-web" 
+    file="/unir-establecimiento-salud-web/src/main/java/net/unir/establecimiento/salud/util/AbstractRepository.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="275" width="199" x="541" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="net.unir.establecimiento.salud.util.Resources" 
+    project="unir-establecimiento-salud-web" 
+    file="/unir-establecimiento-salud-web/src/main/java/net/unir/establecimiento/salud/util/Resources.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="95" width="184" x="55" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <generalization id="20">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="7"/>  
+  </generalization>  
+  <association id="21">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="22" name="establecimientoSaludDao"/>      
+      <multiplicity id="23" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="24">    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="25" name="dao"/>      
+      <multiplicity id="26" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="27">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="28" name="dao"/>      
+      <multiplicity id="29" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="30">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="7"/>  
+  </generalization>  
+  <generalization id="31">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="7"/>  
+  </generalization>  
+  <dependency id="32">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <association id="33">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="34" name="dao"/>      
+      <multiplicity id="35" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="36">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <dependency id="37">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <generalization id="38">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="7"/>  
+  </generalization>  
+  <generalization id="39">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="7"/>  
+  </generalization>  
+  <generalization id="40">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="18"/>  
+  </generalization>  
+  <dependency id="41">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="12"/>  
+  </dependency>  
+  <dependency id="42">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <association id="43">    
+    <end type="SOURCE" refId="17" navigable="false">      
+      <attribute id="44" name="consultorioDao"/>      
+      <multiplicity id="45" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

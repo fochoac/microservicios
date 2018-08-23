@@ -1,0 +1,20 @@
+kumuluzee:
+  server:
+    http:
+      port: 8082
+  discovery:
+    consul:
+      agent: http://173.249.51.238:8500
+      hosts: http://173.249.51.238:8500
+    ttl: 20
+    ping-interval: 15
+  config:
+    start-retry-delay-ms: 500
+    max-retry-delay-ms: 900000
+    consul:
+      agent: http://173.249.51.238:8500
+      hosts: http://173.249.51.238:8500
+  url-servicios:
+    servicio-general: http://173.249.51.238:8500/ui/dc1/kv
+    servicio-seguridad: http://173.249.51.238:8500/ui/dc1/kv
+    servicio-establecimiento-salud: http://173.249.51.238:8500/ui/dc1/kv

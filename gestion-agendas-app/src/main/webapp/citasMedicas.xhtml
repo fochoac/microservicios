@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:adm="http://github.com/adminfaces"
+	template="#{layoutMB.template}">
+
+	<ui:param name="title" value="Agendamiento de citas medicas" />
+	<!-- Automatic create breadCrumb and page title when param 'title' is provided. -->
+
+	<ui:define name="head-end">
+		<style type="text/css">
+.ui-datatable .ui-datatable-header {
+	text-align: right !important;
+}
+</style>
+	</ui:define>
+
+	<ui:define name="description">
+       Agendamiento de citas medicas
+    </ui:define>
+
+	<ui:define name="body">
+		<h:form id="frmAgenda">
+			<p:outputPanel id="outPanRegistro" autoUpdate="true"
+				rendered="#{agendamientoCitaMedicaControlador.pantallaAgendamiento}">
+
+				<div class="box box-primary">
+					<div class="box-header with-border">
+						<p:fieldset legend="Datos del paciente">
+							<p:panelGrid columns="2">
+								<p:outputLabel value="Número de identificacion: " />
+								<p:outputLabel
+									value="#{agendamientoCitaMedicaControlador.obtenerDatosPersona().cedula}" />
+								<p:outputLabel value="Nombres completos: " />
+								<p:outputLabel
+									value="#{agendamientoCitaMedicaControlador.obtenerDatosPersona().nombres} #{agendamientoCitaMedicaControlador.obtenerDatosPersona().apellidos}" />
+								<p:outputLabel value="Fecha nacimiento: " />
+								<p:outputLabel
+									value="#{agendamientoCitaMedicaControlador.obtenerDatosPersona().fechaNacimiento}">
+
+								</p:outputLabel>
+							</p:panelGrid>
+						</p:fieldset>
+						<p:spacer height="10px" />
+						<p:fieldset legend="Datos del establecimiento de salud">
+							<p:panelGrid columns="2">
+								<p:outputLabel value="Nombre: " />
+								<p:outputLabel
+									value="#{agendamientoCitaMedicaControlador.establecimientoSalud.nombre}" />
+								<p:outputLabel value="Telefono: " />
+								<p:outputLabel
+									value="#{agendamientoCitaMedicaControlador.establecimientoSalud.telefono}" />
+								<p:outputLabel value="Correo de informacion]: " />
+								<p:outputLabel
+									value="#{agendamientoCitaMedicaControlador.establecimientoSalud.correo}" />
+
+							</p:panelGrid>
+						</p:fieldset>
+						<p:spacer height="10px" />
+						<p:fieldset legend="Datos del agendamiento">
+							<p:panelGrid columns="2">
+								<p:outputLabel value="Seleccione la especialidad: " />
+								<p:selectOneMenu
+									value="#{agendamientoCitaMedicaControlador.idEspecialidad}">
+									<p:ajax event="change" update="cmbConsultorio" />
+									<f:selectItem noSelectionOption="true" itemValue=""
+										itemLabel="Seleccione" />
+									<f:selectItems
+										value="#{agendamientoCitaMedicaControlador.especialidades}"
+										var="especialidad" itemLabel="#{especialidad.nombre}"
+										itemValue="#{especialidad.id}" />
+								</p:selectOneMenu>
+								<p:outputLabel value="Seleccione el consultorio: " />
+								<p:selectOneMenu id="cmbConsultorio"
+									value="#{agendamientoCitaMedicaControlador.idConsultorio}">
+									<p:ajax
+										listener="#{agendamientoCitaMedicaControlador.cargarMedicos()}"
+										update="tblMedicos" />
+									<f:selectItem noSelectionOption="true" itemValue=""
+										itemLabel="Seleccione" />
+									<f:selectItems
+										value="#{agendamientoCitaMedicaControlador.consultorios}"
+										var="consultorio" itemLabel="#{consultorio.numeroConsultorio}"
+										itemValue="#{consultorio.id}" />
+								</p:selectOneMenu>
+							</p:panelGrid>
+							<p:spacer height="10px" />
+							<p:dataTable id="tblMedicos"
+								value="#{agendamientoCitaMedicaControlador.medicos}"
+								var="medico">
+								<p:column headerText="Codigo">
+									<p:outputLabel value="#{medico.codigo}" />
+								</p:column>
+								<p:column headerText="Nombre">
+									<p:outputLabel value="#{medico.nombreMedico}" />
+								</p:column>
+								<p:column headerText="Opciones">
+									<p:commandButton value="Horarios"
+										action="#{agendamientoCitaMedicaControlador.cargarHorarios(medico.id)}"
+										update="#{p:component('tblHorario')}" />
+								</p:column>
+							</p:dataTable>
+						</p:fieldset>
+
+						<p:dialog id="dlgHorario" header="Seleccione el horario"
+							widgetVar="dlg2" modal="true" width="400px" appendToBody="true">
+							<p:dataTable id="tblHorario"
+								value="#{agendamientoCitaMedicaControlador.horarios}"
+								var="horario" rows="10"
+                         paginator="true"
+                         paginatorTemplate="{CurrentPageReport} {FirstPageLink} {PreviousPageLink} {PageLinks} {NextPageLink} {LastPageLink} {RowsPerPageDropdown}"
+                         rowsPerPageTemplate="5,10,15" paginatorAlwaysVisible="false">
+								<p:column headerText="Fecha">
+									<p:outputLabel value="#{horario.fecha}" />
+								</p:column>
+								<p:column headerText="Hora Inicio">
+									<p:outputLabel value="#{horario.horaInicio}" />
+								</p:column>
+								<p:column headerText="Hora Fin">
+									<p:outputLabel value="#{horario.horaFin}" />
+								</p:column>
+								<p:column>
+									<p:commandButton value="Reservar"
+										actionListener="#{agendamientoCitaMedicaControlador.agendarCita(horario.id)}"
+										update="#{p:component('outPanDetalle')} #{p:component('fldDetalle')} #{p:component('outPanRegistro')} #{p:component('frmAgenda')}">
+										<p:confirm header="Confirmacion"
+											message="Esta seguro de agendar una cita en el horario seleccionado?"
+											icon="ui-icon-alert" />
+									</p:commandButton>
+								</p:column>
+							</p:dataTable>
+						</p:dialog>
+						<p:confirmDialog global="true" showEffect="fade" hideEffect="fade">
+							<p:commandButton value="Agendar" type="button"
+								styleClass="ui-confirmdialog-yes" icon="ui-icon-check"
+								update="@form" />
+							<p:commandButton value="Cancelar" type="button"
+								styleClass="ui-confirmdialog-no" icon="ui-icon-close" />
+						</p:confirmDialog>
+					</div>
+				</div>
+
+
+			</p:outputPanel>
+			<p:outputPanel id="outPanDetalle" autoUpdate="true"
+				rendered="#{agendamientoCitaMedicaControlador.detalleAgendamiento}">
+				<p:fieldset id="fldDetalle" legend="Datos de agendamiento">
+					<p:outputLabel
+						value="Estimado(a) usuario, se ha agendado con exito su cita medica con los siguientes datos:" />
+					<p:panelGrid columns="2">
+						<p:outputLabel value="Nombre del establecimiento: " />
+						<p:outputLabel
+							value="#{agendamientoCitaMedicaControlador.establecimientoSalud.nombre}" />
+						<p:outputLabel value="Nombre del medico(a): " />
+						<p:outputLabel
+							value="#{agendamientoCitaMedicaControlador.citaAgendada.nombreMedico}" />
+						<p:outputLabel value="Fecha: " />
+						<p:outputLabel
+							value="#{agendamientoCitaMedicaControlador.citaAgendada.fechaCita}" />
+						<p:outputLabel value="Hora: " />
+						<p:outputLabel
+							value="#{agendamientoCitaMedicaControlador.citaAgendada.fechaInicio}" />
+						<p:outputLabel value="Consultorio N: " />
+						<p:outputLabel
+							value="#{agendamientoCitaMedicaControlador.citaAgendada.consultorio}" />
+						<p:outputLabel value="Especialidad: " />
+						<p:outputLabel
+							value="#{agendamientoCitaMedicaControlador.citaAgendada.especialidad}" />
+					</p:panelGrid>
+					<p:spacer height="10px" />
+					<p:outputLabel
+						value="Nota: Debe estar 30 minutos antes de la hora de la cita para evitar inconvenientes durante la toma de signos vitales."
+						style="font-weight: bold;"></p:outputLabel>
+				</p:fieldset>
+
+
+			</p:outputPanel>
+		</h:form>
+
+		<script type="text/javascript">
+function myFunction() {
+	document.getElementById("frmAgenda:dlgHorario_modal").remove();
+} 
+</script>
+
+	</ui:define>
+
+</ui:composition>

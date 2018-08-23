@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  servicio-general:
+    image: heavyvinicio/unir-gestion-agendas-api-gateway
+    build: .
+    ports:
+      - "8082:8082"

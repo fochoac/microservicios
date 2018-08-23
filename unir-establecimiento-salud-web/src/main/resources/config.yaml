@@ -1,0 +1,25 @@
+kumuluzee:
+  datasources:
+  - jndi-name: jdbc/unir-establecimiento-salud-DS
+    connection-url: jdbc:postgresql://173.249.51.238:5432/sch_establecimientos_salud
+    username: postgres
+    password: yeco2010
+    max-pool-size: 20
+  server:
+    http:
+      port: 8383
+  discovery:
+    consul:
+      agent: http://173.249.51.238:8500
+      hosts: http://173.249.51.238:8500
+    ttl: 20
+    ping-interval: 15
+  swagger:
+    enabled: true
+    ui: 
+      enabled: false
+  cors-filter:
+    annotations:
+      customer-servlet:
+        allow-origin: "*"
+        allow-subdomains: false

@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  servicio-general:
+    image: heavyvinicio/unir-servicio-general-web
+    build: .
+    ports:
+      - "8081:8081"

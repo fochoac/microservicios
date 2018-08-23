@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.2" icons="true" always-add-relationships="true" generalizations="true" realizations="true" 
+  associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="net.unir.servicio.seguridad.configuracion.SeguridadConfiguracion" 
+    project="unir-servicio-seguridad-web" 
+    file="/unir-servicio-seguridad-web/src/main/java/net/unir/servicio/seguridad/configuracion/SeguridadConfiguracion.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="77" width="177" x="41" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="net.unir.servicio.seguridad.dao.RolDao" project="unir-servicio-seguridad-web" 
+    file="/unir-servicio-seguridad-web/src/main/java/net/unir/servicio/seguridad/dao/RolDao.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="95" width="224" x="41" y="757"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="net.unir.servicio.seguridad.dao.UsuarioDao" project="unir-servicio-seguridad-web" 
+    file="/unir-servicio-seguridad-web/src/main/java/net/unir/servicio/seguridad/dao/UsuarioDao.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="95" width="233" x="305" y="757"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="net.unir.servicio.seguridad.dao.PersonaDao" project="unir-servicio-seguridad-web" 
+    file="/unir-servicio-seguridad-web/src/main/java/net/unir/servicio/seguridad/dao/PersonaDao.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="113" width="211" x="578" y="757"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="net.unir.servicio.seguridad.dao.impl.GenericoDao" 
+    project="unir-servicio-seguridad-web" 
+    file="/unir-servicio-seguridad-web/src/main/java/net/unir/servicio/seguridad/dao/impl/GenericoDao.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="131" width="176" x="272" y="568"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="net.unir.servicio.seguridad.modelo.Usuario" project="unir-servicio-seguridad-web" 
+    file="/unir-servicio-seguridad-web/src/main/java/net/unir/servicio/seguridad/modelo/Usuario.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="509" width="259" x="305" y="910"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="net.unir.servicio.seguridad.modelo.Persona" project="unir-servicio-seguridad-web" 
+    file="/unir-servicio-seguridad-web/src/main/java/net/unir/servicio/seguridad/modelo/Persona.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="635" width="243" x="625" y="910"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="net.unir.servicio.seguridad.modelo.Menu" project="unir-servicio-seguridad-web" 
+    file="/unir-servicio-seguridad-web/src/main/java/net/unir/servicio/seguridad/modelo/Menu.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="491" width="161" x="689" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="net.unir.servicio.seguridad.modelo.Rol" project="unir-servicio-seguridad-web" 
+    file="/unir-servicio-seguridad-web/src/main/java/net/unir/servicio/seguridad/modelo/Rol.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="383" width="170" x="41" y="910"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="net.unir.servicio.seguridad.modelo.UsuarioRol" 
+    project="unir-servicio-seguridad-web" 
+    file="/unir-servicio-seguridad-web/src/main/java/net/unir/servicio/seguridad/modelo/UsuarioRol.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="383" width="152" x="497" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="net.unir.servicio.seguridad.servicio.UsuarioServicio" 
+    project="unir-servicio-seguridad-web" 
+    file="/unir-servicio-seguridad-web/src/main/java/net/unir/servicio/seguridad/servicio/UsuarioServicio.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="131" width="243" x="488" y="568"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="net.unir.servicio.seguridad.servicio.PersonaServicio" 
+    project="unir-servicio-seguridad-web" 
+    file="/unir-servicio-seguridad-web/src/main/java/net/unir/servicio/seguridad/servicio/PersonaServicio.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="149" width="195" x="771" y="568"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="net.unir.servicio.seguridad.util.AbstractRepository" 
+    project="unir-servicio-seguridad-web" 
+    file="/unir-servicio-seguridad-web/src/main/java/net/unir/servicio/seguridad/util/AbstractRepository.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="275" width="199" x="258" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="net.unir.servicio.seguridad.util.Resources" project="unir-servicio-seguridad-web" 
+    file="/unir-servicio-seguridad-web/src/main/java/net/unir/servicio/seguridad/util/Resources.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="95" width="184" x="890" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <generalization id="15">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="5"/>  
+  </generalization>  
+  <generalization id="16">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="5"/>  
+  </generalization>  
+  <dependency id="17">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <generalization id="18">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="5"/>  
+  </generalization>  
+  <dependency id="19">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <association id="20">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="21" name="dao"/>      
+      <multiplicity id="22" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="23">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <generalization id="24">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="13"/>  
+  </generalization>  
+  <dependency id="25">    
+    <bendpoint x="819" y="757"/>    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <association id="26">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="27" name="dao"/>      
+      <multiplicity id="28" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="29">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <association id="30">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="31" name="personaDao"/>      
+      <multiplicity id="32" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="33">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="34" name="rolDao"/>      
+      <multiplicity id="35" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

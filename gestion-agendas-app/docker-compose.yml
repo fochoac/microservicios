@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  gestion-agendas-app:
+    image: heavyvinicio/gestion-agendas-app
+    build: .
+    ports:
+      - "8080:8080"

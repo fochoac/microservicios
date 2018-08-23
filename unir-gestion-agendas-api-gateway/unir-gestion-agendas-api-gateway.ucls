@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.2" icons="true" automaticImage="PNG" always-add-relationships="true" generalizations="true" 
+  realizations="true" associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="net.unir.gestion.agendas.configuracion.GestionAgendasConfiguracion" 
+    project="unir-gestion-agendas-api-gateway" 
+    file="/unir-gestion-agendas-api-gateway/src/main/java/net/unir/gestion/agendas/configuracion/GestionAgendasConfiguracion.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="77" width="199" x="41" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="net.unir.gestion.agendas.configuracion.GestionConfiguracionesConsul" 
+    project="unir-gestion-agendas-api-gateway" 
+    file="/unir-gestion-agendas-api-gateway/src/main/java/net/unir/gestion/agendas/configuracion/GestionConfiguracionesConsul.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="239" width="242" x="414" y="208"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="net.unir.gestion.agendas.servicio.AgendamientoServicio" 
+    project="unir-gestion-agendas-api-gateway" 
+    file="/unir-gestion-agendas-api-gateway/src/main/java/net/unir/gestion/agendas/servicio/AgendamientoServicio.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="911" y="304"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="net.unir.gestion.agendas.servicio.ConsultaServicio" 
+    project="unir-gestion-agendas-api-gateway" 
+    file="/unir-gestion-agendas-api-gateway/src/main/java/net/unir/gestion/agendas/servicio/ConsultaServicio.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="131" width="348" x="737" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="net.unir.gestion.agendas.servicio.ConfiguracionServicio" 
+    project="unir-gestion-agendas-api-gateway" 
+    file="/unir-gestion-agendas-api-gateway/src/main/java/net/unir/gestion/agendas/servicio/ConfiguracionServicio.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="95" width="151" x="504" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="net.unir.gestion.agendas.servicio.CancelacionServicio" 
+    project="unir-gestion-agendas-api-gateway" 
+    file="/unir-gestion-agendas-api-gateway/src/main/java/net/unir/gestion/agendas/servicio/CancelacionServicio.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="131" width="333" x="41" y="208"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="net.unir.gestion.agendas.util.ServicioUtil" 
+    project="unir-gestion-agendas-api-gateway" 
+    file="/unir-gestion-agendas-api-gateway/src/main/java/net/unir/gestion/agendas/util/ServicioUtil.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="401" width="389" x="696" y="487"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="net.unir.gestion.agendas.util.Resources" 
+    project="unir-gestion-agendas-api-gateway" 
+    file="/unir-gestion-agendas-api-gateway/src/main/java/net/unir/gestion/agendas/util/Resources.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="95" width="184" x="280" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <dependency id="9">    
+    <bendpoint x="918" y="442"/>    
+    <bendpoint x="919" y="464"/>    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <association id="10">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="11" name="configuracion"/>      
+      <multiplicity id="12" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="13">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="14" name="configuracion"/>      
+      <multiplicity id="15" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="16">    
+    <bendpoint x="206" y="692"/>    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <association id="17">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="18" name="agendamientoServicio"/>      
+      <multiplicity id="19" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="20">    
+    <bendpoint x="1129" y="207"/>    
+    <bendpoint x="1130" y="415"/>    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence
+             http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd"
+	version="2.1">
+	<persistence-unit name="unir-citas-medicas-PU"
+		transaction-type="RESOURCE_LOCAL">
+		<non-jta-data-source>jdbc/unir-citas-medicas-DS</non-jta-data-source>
+
+		<class>net.unir.gestion.citas.medicas.modelo.CitaMedica</class>
+		<class>net.unir.gestion.citas.medicas.modelo.HistoricosCitaMedica</class>
+
+
+		<!-- <properties> -->
+		<!-- <property name="eclipselink.cache.shared.default" -->
+		<!-- value="false" /> -->
+		<!-- <property name="eclipselink.jdbc.cache-statements" -->
+		<!-- value="true" /> -->
+		<!-- <property name="eclipselink.jdbc.batch-writing" value="JDBC" /> -->
+		<!-- <property -->
+		<!-- name="eclipselink.persistence-context.close-on-commit" value="true" 
+			/> -->
+		<!-- <property -->
+		<!-- name="eclipselink.persistence-context.persist-on-commit" -->
+		<!-- value="false" /> -->
+		<!-- <property name="eclipselink.cache.size.default" value="0" /> -->
+		<!-- <property name="eclipselink.cache.type.default" value="None" /> -->
+		<!-- <property name="eclipselink.logging.logger" -->
+		<!-- value="ServerLogger" /> -->
+		<!-- <property name="eclipselink.logging.level" value="OFF" /> -->
+		<!-- <property name="eclipselink.logging.parameters" value="true" /> -->
+		<!-- <property name="eclipselink.orm.validate.schema" -->
+		<!-- value="true" /> -->
+		<!-- <property name="eclipselink.persistence-context.flush-mode" -->
+		<!-- value="commit" /> -->
+		<!-- </properties> -->
+		<!-- <properties> -->
+		<!-- <property name="javax.persistence.schema-generation.database.action" 
+			value="create"/> -->
+		<!-- <property name="javax.persistence.schema-generation.create-source" 
+			value="metadata"/> -->
+		<!-- <property name="javax.persistence.schema-generation.drop-source" value="metadata"/> -->
+		<!-- </properties> -->
+
+	</persistence-unit>
+</persistence>

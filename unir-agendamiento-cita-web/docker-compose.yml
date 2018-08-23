@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  servicio-general:
+    image: heavyvinicio/unir-agendamiento-cita-web
+    build: .
+    ports:
+      - "8083:8083"

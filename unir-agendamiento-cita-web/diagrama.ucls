@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.2" icons="true" automaticImage="PNG" always-add-relationships="true" generalizations="true" 
+  realizations="true" associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="net.unir.gestion.citas.medicas.configuracion.CitaMedicaConfiguracion" 
+    project="unir-agendamiento-cita-web" 
+    file="/unir-agendamiento-cita-web/src/main/java/net/unir/gestion/citas/medicas/configuracion/CitaMedicaConfiguracion.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="77" width="193" x="41" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="net.unir.gestion.citas.medicas.dao.CitaMedicaDao" 
+    project="unir-agendamiento-cita-web" 
+    file="/unir-agendamiento-cita-web/src/main/java/net/unir/gestion/citas/medicas/dao/CitaMedicaDao.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="113" width="275" x="561" y="1261"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="net.unir.gestion.citas.medicas.dao.HistoricoCitaMedicaDao" 
+    project="unir-agendamiento-cita-web" 
+    file="/unir-agendamiento-cita-web/src/main/java/net/unir/gestion/citas/medicas/dao/HistoricoCitaMedicaDao.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="77" width="163" x="274" y="1261"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="net.unir.gestion.citas.medicas.dao.impl.GenericoDao" 
+    project="unir-agendamiento-cita-web" 
+    file="/unir-agendamiento-cita-web/src/main/java/net/unir/gestion/citas/medicas/dao/impl/GenericoDao.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="131" width="176" x="274" y="532"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="net.unir.gestion.citas.medicas.modelo.CitaMedica" 
+    project="unir-agendamiento-cita-web" 
+    file="/unir-agendamiento-cita-web/src/main/java/net/unir/gestion/citas/medicas/modelo/CitaMedica.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="689" width="319" x="490" y="532"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="net.unir.gestion.citas.medicas.modelo.HistoricosCitaMedica" 
+    project="unir-agendamiento-cita-web" 
+    file="/unir-agendamiento-cita-web/src/main/java/net/unir/gestion/citas/medicas/modelo/HistoricosCitaMedica.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="455" width="214" x="513" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="net.unir.gestion.citas.medicas.servicio.CitaMedicaServicio" 
+    project="unir-agendamiento-cita-web" 
+    file="/unir-agendamiento-cita-web/src/main/java/net/unir/gestion/citas/medicas/servicio/CitaMedicaServicio.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="149" width="221" x="849" y="532"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="net.unir.gestion.citas.medicas.util.AbstractRepository" 
+    project="unir-agendamiento-cita-web" 
+    file="/unir-agendamiento-cita-web/src/main/java/net/unir/gestion/citas/medicas/util/AbstractRepository.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="293" width="199" x="274" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="9">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="10" name="citasMedica"/>      
+      <multiplicity id="11" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="12">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="4"/>  
+  </generalization>  
+  <association id="13">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="14" name="historicosCitasMedicas"/>      
+      <multiplicity id="15" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="16">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </generalization>  
+  <association id="17">    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="18" name="citaMedicaDao"/>      
+      <multiplicity id="19" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="20">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="8"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="false" package="false" protected="false" private="false" static="true"/>    
+    <operations public="false" package="false" protected="false" private="false" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

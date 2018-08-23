@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  servicio-general:
+    image: heavyvinicio/unir-consulta-cita-web
+    build: .
+    ports:
+      - "8084:8084"

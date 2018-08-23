@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:h="http://xmlns.jcp.org/jsf/html">
+
+	<ul class="sidebar-menu">
+		<li><p:link outcome="/index.jsf"
+				onclick="clearBreadCrumbs()">
+				<i class="fa fa-home"></i>
+				<span>Inicio</span>
+			</p:link></li>
+		<li class="header">General</li>
+		<li><p:link outcome="/citasMedicas.jsf">
+				<i class="fa fa-car"></i>
+				<span>Agendar Citas Medicas</span>
+			</p:link></li>
+		<li><p:link outcome="/consultaCitaMedicas.jsf">
+				<i class="fa fa-car"></i>
+				<span>Consultar Citas Medicas</span>
+			</p:link></li>
+		<li><p:link outcome="/cancelacionCitaMedicas.jsf">
+				<i class="fa fa-car"></i>
+				<span>Cancelar Citas Medicas</span>
+			</p:link></li>
+
+	</ul>
+
+</ui:composition>

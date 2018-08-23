@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  servicio-establecimeinto-salud:
+    image: heavyvinicio/unir-establecimiento-salud-web
+    build: .
+    ports:
+      - "8383:8383"

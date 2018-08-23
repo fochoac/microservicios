@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:adm="http://github.com/adminfaces"
+	template="#{layoutMB.template}">
+
+	<ui:param name="title" value="Consulta de citas medicas" />
+	<!-- Automatic create breadCrumb and page title when param 'title' is provided. -->
+
+	<ui:define name="head-end">
+		<style type="text/css">
+.ui-datatable .ui-datatable-header {
+	text-align: right !important;
+}
+</style>
+	</ui:define>
+
+	<ui:define name="description">
+       Consulta de citas medicas
+    </ui:define>
+
+	<ui:define name="body">
+		<h:form>
+			<p:fieldset legend="Citas agendadas">
+				<p:dataTable value="#{consultaCitaMedicaControlador.citas}"
+					var="cita" emptyMessage="No presenta citas agendadas actualmente" rows="10"
+                         paginator="true"
+                         paginatorTemplate="{CurrentPageReport} {FirstPageLink} {PreviousPageLink} {PageLinks} {NextPageLink} {LastPageLink} {RowsPerPageDropdown}"
+                         rowsPerPageTemplate="5,10,15" paginatorAlwaysVisible="false">
+					<p:column headerText="Establecimiento Salud">
+						<p:outputLabel value="#{cita.establecimientoSaludDto.nombre}" />
+					</p:column>
+					<p:column headerText="Especialidad">
+						<p:outputLabel value="#{cita.especialidadDto.nombre}" />
+					</p:column>
+					<p:column headerText="Consultorio">
+						<p:outputLabel value="#{cita.consultorioDto.numeroConsultorio}" />
+					</p:column>
+					<p:column headerText="Medico(a)">
+						<p:outputLabel value="#{cita.medicoDto.nombreMedico}" />
+					</p:column>
+					<p:column headerText="Fecha">
+						<p:outputLabel value="#{cita.horarioDto.fecha}" />
+					</p:column>
+					<p:column headerText="Hora">
+						<p:outputLabel value="#{cita.horarioDto.horaInicio}" />
+					</p:column>
+					<p:column headerText="Opciones">
+					
+						<p:commandButton value="Cancelar"
+							actionListener="#{consultaCitaMedicaControlador.cancelarCita(cita.idCita)}"
+							update="@form">
+							<p:confirm header="Confirmacion"
+								message="Esta seguro de cancelar la cita medica seleccionada?"
+								icon="ui-icon-alert" />
+						</p:commandButton>
+					</p:column>
+				</p:dataTable>
+				<p:confirmDialog global="true" showEffect="fade" hideEffect="fade">
+					<p:commandButton value="Cancelar Cita" type="button"
+						styleClass="ui-confirmdialog-yes" icon="ui-icon-check"
+						update="@form" />
+					<p:commandButton value="Salir" type="button"
+						styleClass="ui-confirmdialog-no" icon="ui-icon-close" />
+				</p:confirmDialog>
+
+			</p:fieldset>
+
+		</h:form>
+	</ui:define>
+
+</ui:composition>
